@@ -8,7 +8,7 @@ agent any
     {
       steps
       {
-      echo Checking-out
+      echo "Checking-out"
       }
     }
     
@@ -16,10 +16,9 @@ agent any
     {
       steps
       {
-      echo Deploying
+      echo "Deploying"
       ant -f ./build.xml deployUnpackaged
       }
-    }
-    
+    } 
   }
 }
