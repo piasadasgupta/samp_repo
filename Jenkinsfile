@@ -17,7 +17,7 @@ agent any
       steps
       {
       echo "Deploying"
-      ant -f ./build.xml deployUnpackaged
+      bat 'ant -f ./build.xml deployUnpackaged'
       }
     } 
   }
